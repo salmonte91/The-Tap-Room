@@ -1,0 +1,39 @@
+:root {
+  --text: #000a0f;
+  --background: #dcf2ff;
+  --primary-button: #028ed9;
+  --secondary-button: #ebf8ff;
+  --accent: #029ef2;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Lobster Two", cursive;
+}
+
+.tap-room-logo {
+  display: flex;
+  align-items: center;
+}
+
+.tap-room-logo > img{
+    aspect-ratio: 1;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.tap-room-logo > p{
+    font-size: 2rem;
+}
+
+.primary-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
